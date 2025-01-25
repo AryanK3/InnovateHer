@@ -1,7 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation"; // Import useRouter from next/router
 
 export default function Login() {
+  const router = useRouter(); // Initialize router
+
+  // Handle form submission
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault(); // Prevent default form behavior (page reload)
+    router.push("/main"); // Redirect to the main page after sign-in
+  };
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 p-4">
       <div className="w-full max-w-sm p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg">
@@ -16,7 +27,7 @@ export default function Login() {
           />
           <h1 className="text-2xl font-semibold">Sign In</h1>
         </div>
-        <form className="flex flex-col gap-4 mt-4">
+        <form className="flex flex-col gap-4 mt-4" onSubmit={handleSubmit}> {/* Attach handleSubmit */}
           <div className="flex flex-col gap-2">
             <label htmlFor="email" className="text-sm font-medium">
               Email Address
@@ -58,6 +69,3 @@ export default function Login() {
     </div>
   );
 }
-
-
-

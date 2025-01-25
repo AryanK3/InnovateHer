@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link"; // Import Link from next/link
 import { useRouter } from "next/navigation";
@@ -46,7 +48,7 @@ export default function MainPage() {
           {reviews.map((review, index) => (
             <Link
               key={index}
-              href={`/fraternity-details/${review.id}`} // Link to the individual frat page using the id
+              href={`/fraternity-details/${review.id}`} // Link to individual frat page with id
             >
               <div
                 className="flex items-center p-4 bg-white dark:bg-gray-800 border rounded-lg shadow-sm cursor-pointer"
