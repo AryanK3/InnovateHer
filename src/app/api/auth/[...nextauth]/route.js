@@ -5,8 +5,8 @@ import clientPromise from "../../../lib/mongodb";
 const handler = NextAuth({
     providers: [
         GoogleProvider({
-            clientId: "691436364074-pjlh42p11cbao0pddqmrsiftfh7u8gvv.apps.googleusercontent.com",
-            clientSecret: "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",
+            clientId: process.env.CLIENTID,
+            clientSecret: process.env.CLIENTSECRET,
         }),
     ],
     callbacks: {
