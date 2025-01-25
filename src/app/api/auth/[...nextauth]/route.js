@@ -5,17 +5,18 @@ import clientPromise from "../../../lib/mongodb";
 const handler = NextAuth({
     providers: [
         GoogleProvider({
-            clientId: process.env.CLIENTID,
-            clientSecret: process.env.CLIENTSECRET,
+            clientId: "691436364074-pjlh42p11cbao0pddqmrsiftfh7u8gvv.apps.googleusercontent.com",
+            clientSecret: "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",
         }),
     ],
     callbacks: {
         async signIn({credentials,profile,email,account,user}) {
-        /*
-        if (!profile.email.endsWith('@purdue.edu')) {
-            return false;
-        }*/
         const client = await clientPromise;
+        if (!client) {
+            console.error('Failed to connect to MongoDB');
+        } else {
+            console.log('MongoDB connection successful');
+        }
         const db = client.db("users");
         const userCollection = db.collection("profiles");
         const existingUser = await userCollection.findOne({ mail: profile.email });
@@ -25,6 +26,7 @@ const handler = NextAuth({
                 lastName: profile.family_name,
                 mail: profile.email,
                 img: profile.picture,
+                groups: [],
             };
             await userCollection.insertOne(newUserProfile);
         }
