@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased pt-0`}>
         <SessionProvider>
-          <header className="bg-[#F5E6E8] text-[#7A3F6D] p-4 shadow-lg">
+          <header className="bg-[#F5E6E8] text-[#5A2A51] p-4 shadow-lg">
             <div className="flex justify-between items-center">
               {/* Logo Image */}
               <div className="flex items-center space-x-4">

@@ -189,7 +189,7 @@ const handler = NextAuth({
         } else {
             console.log('MongoDB connection successful');
         }
-        const db = client.db("users");
+        const db = client.db("profiles");
         const userCollection = db.collection("profiles");
         const existingUser = await userCollection.findOne({ mail: profile.email });
         if (!existingUser) {

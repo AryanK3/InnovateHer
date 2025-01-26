@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div className="bg-[#FFFFFF] min-h-screen flex flex-col justify-center items-center text-center py-12 px-6">
-      <h1 className="text-5xl font-bold text-[#7A3F6D] mb-6">Welcome to FratList</h1>
+      <h1 className="text-5xl font-bold text-[#5A2A51] mb-6">Welcome to FratList</h1>
       
       <p className="text-xl text-[#5A2A51] mb-12 max-w-3xl mx-auto">
         FratList is a platform designed for women, empowering you to explore and connect with various fraternities, learn about their cultures, and find the perfect fit for you.

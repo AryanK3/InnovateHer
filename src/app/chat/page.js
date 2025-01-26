@@ -46,29 +46,31 @@ export default function Chat() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-900">
-      <div className="p-8 rounded-lg shadow-lg w-full max-w-xl bg-transparent">
-        <h1 className="text-3xl font-bold text-white text-center mb-6">Ask a Question about Fraternities</h1>
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-pink-100 to-white">
+      <div className="w-full max-w-4xl px-6 py-8 sm:px-12 sm:py-16 bg-transparent">
+        <h4 className="text-3xl font-bold text-[#5A2A51] text-center mb-8">
+          Ask a Question About Fraternities
+        </h4>
         
-        <form className="space-y-4" onSubmit={handleSubmit}>
+        <form className="space-y-6" onSubmit={handleSubmit}>
           <input
             type="text"
             value={question}
             onChange={handleQuestionChange}
             placeholder="Type your question here"
-            className="w-full p-3 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent text-white"
+            className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 bg-white text-gray-900 shadow-md"
             required
           />
           <button
             type="submit"
-            className="w-full py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-200"
+            className="w-full py-3 bg-pink-600 text-white font-semibold rounded-lg hover:bg-pink-700 transition duration-200"
           >
             Submit
           </button>
         </form>
 
-        {error && <p className="mt-4 text-red-600 text-center">{error}</p>}
-        {answer && <div className="mt-6 bg-gray-800 p-4 rounded-md text-white shadow-sm"><strong>Answer:</strong> {answer}</div>}
+        {error && <p className="mt-4 text-red-600 text-center font-medium">{error}</p>}
+        {answer && <div className="mt-6 bg-gray-50 p-6 rounded-lg text-purple-800 shadow-md"><strong>Answer:</strong> {answer}</div>}
       </div>
     </div>
   );
