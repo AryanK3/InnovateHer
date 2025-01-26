@@ -1,6 +1,12 @@
 "use client";
 import { useSession } from 'next-auth/react';
 import { useState } from 'react';
+import { Playfair_Display } from "next/font/google"; // Import Playfair Display font
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-playfair-display",
+});
 
 export default function Chat() {
   const { data: session } = useSession({ required: true });
@@ -46,7 +52,7 @@ export default function Chat() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-pink-100 to-white">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-pink-100 to-white font-['Playfair_Display']">
       <div className="w-full max-w-4xl px-6 py-8 sm:px-12 sm:py-16 bg-transparent">
         <h4 className="text-3xl font-bold text-[#5A2A51] text-center mb-8">
           Ask a Question About Fraternities
