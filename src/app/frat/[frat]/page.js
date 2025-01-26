@@ -4,7 +4,7 @@ import { useParams } from 'next/navigation';
 import { useSession } from 'next-auth/react';
 
 export default function Frat() {
-  const { data: session } = useSession({ required: false });
+  const { data: session } = useSession({ required: true });
   const { frat } = useParams(); 
   const [name, setName] = useState('');
   const [link, setLink] = useState('');

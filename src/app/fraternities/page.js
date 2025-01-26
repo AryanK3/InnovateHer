@@ -31,7 +31,7 @@ export default function FratList() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-7xl">
         {frats.length > 0 ? (
           frats.map((frat) => (
-            <div key={frat.id} className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
+            <div key={frat.name} className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
               {frat.image && (
                 <img
                   src={frat.image}

@@ -198,7 +198,6 @@ const handler = NextAuth({
                 lastName: profile.family_name,
                 mail: profile.email,
                 img: profile.picture,
-                groups: [],
             };
             await userCollection.insertOne(newUserProfile);
         }
