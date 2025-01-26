@@ -2,13 +2,13 @@
 
 export default function About() {
   return (
-    <div className="bg-gray-50 text-gray-900 min-h-screen">
+    <div className="bg-[#E6CFDC] text-gray-900 min-h-screen font-playfair-display">
       <section className="max-w-4xl mx-auto p-8">
-        <h1 className="text-4xl font-bold text-center mb-6">About FratList</h1>
-        <p className="text-lg text-center mb-4">
+        <h1 className="text-4xl font-semibold text-center mb-6 text-gray-800">About FratList</h1>
+        <p className="text-lg text-center mb-4 text-gray-700">
           FratList is your go-to platform for discovering and connecting with fraternities at universities across the country.
         </p>
-        <div className="text-xl mb-8">
+        <div className="text-xl mb-8 text-gray-700">
           <p className="mb-4">
             As part of our mission to make social spaces on campuses more inclusive, FratList focuses on helping women navigate the
             traditionally male-dominated Greek life. Whether you're interested in networking, understanding fraternity culture, or
@@ -21,8 +21,8 @@ export default function About() {
         </div>
         
         <div className="bg-white p-6 rounded-xl shadow-md">
-          <h2 className="text-3xl font-semibold mb-4">How FratList Helps Women</h2>
-          <ul className="list-disc pl-6 space-y-4">
+          <h2 className="text-3xl font-semibold mb-4 text-gray-800">How FratList Helps Women</h2>
+          <ul className="list-disc pl-6 space-y-4 text-gray-700">
             <li>
               <span className="font-semibold">Safe Exploration:</span> Women can browse fraternity profiles and gather all the
               information they need without feeling pressured or excluded.
