@@ -1,0 +1,350 @@
+[
+    {
+        "name": "Acacia Fraternity",
+        "link": "https://boilerlink.purdue.edu/organization/acaciapurdue",
+        "image_url": "https://se-images.campuslabs.com/clink/images/adc90c84-cfe2-407c-8c11-88814e0edf9d93eb71c7-706d-44cd-a270-79793de73844.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Acacia+Fraternity+Purdue"
+    },
+    {
+        "name": "Alpha Chi Rho",
+        "link": "https://boilerlink.purdue.edu/organization/alphachirho",
+        "image_url": "https://se-images.campuslabs.com/clink/images/6b2e4773-10d1-48d8-b579-e12f282a9f5cfdad4aae-d05c-42ff-b068-95ecb7cf7e60.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Alpha+Chi+Rho+Purdue"
+    },
+    {
+        "name": "Alpha Epsilon Pi",
+        "link": "https://boilerlink.purdue.edu/organization/aepi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/0ac27c62-01d5-4471-83a3-e4af11a8d7308bd492df-e6a2-4a10-9b61-e1821524b585.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Alpha+Epsilon+Pi+Purdue"
+    },
+    {
+        "name": "Alpha Gamma Rho",
+        "link": "https://boilerlink.purdue.edu/organization/alphagammarho",
+        "image_url": "https://se-images.campuslabs.com/clink/images/1de9b43a-c081-4d1d-8c9c-5b793005540e5dec1af6-9368-4c4c-ba02-f3fe5031be9e.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Alpha+Gamma+Rho+Purdue"
+    },
+    {
+        "name": "Alpha Kappa Lambda Fraternity",
+        "link": "https://boilerlink.purdue.edu/organization/akl",
+        "image_url": "https://se-images.campuslabs.com/clink/images/de189e7c-084c-45d4-92e2-4547b632d2c0002a577c-0b63-4f61-90cf-cfb58bb4e859.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Alpha+Kappa+Lambda+Fraternity+Purdue"
+    },
+    {
+        "name": "Alpha Phi Alpha Fraternity, Inc.",
+        "link": "https://boilerlink.purdue.edu/organization/alphaphialphafraternity",
+        "image_url": "https://se-images.campuslabs.com/clink/images/a2aa19f9-f67a-4e34-a058-7d0500f24104b4912871-c873-4587-ac63-293614569fa2.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Alpha+Phi+Alpha+Fraternity,+Inc.+Purdue"
+    },
+    {
+        "name": "Alpha Sigma Phi",
+        "link": "https://boilerlink.purdue.edu/organization/alphasigmaphi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/cae1ac66-bbf4-4eed-8f2c-d7b3f0d2eed2d2b33a63-0c83-46f5-997e-649ebef76158.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Alpha+Sigma+Phi+Purdue"
+    },
+    {
+        "name": "Alpha Tau Omega",
+        "link": "https://boilerlink.purdue.edu/organization/alphatauomega",
+        "image_url": "https://se-images.campuslabs.com/clink/images/9d1959fd-4cca-4624-86f8-14ceedbf08633c567084-bfe2-4db0-b159-0beea1c5d157.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Alpha+Tau+Omega+Purdue"
+    },
+    {
+        "name": "Beta Chi Theta, Iota Chapter",
+        "link": "https://boilerlink.purdue.edu/organization/betachitheta",
+        "image_url": "https://se-images.campuslabs.com/clink/images/6d16cab1-48f1-46c3-8956-bb25f515e17983a7f96e-a6ce-4508-ba75-c0c12d8b1c64.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Beta+Chi+Theta,+Iota+Chapter+Purdue"
+    },
+    {
+        "name": "Beta Sigma Psi",
+        "link": "https://boilerlink.purdue.edu/organization/betasigmapsi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/bd529cd5-4bd1-4edd-b8fb-76654d205c10758e2007-a015-4169-9046-78bee66754e4.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Beta+Sigma+Psi+Purdue"
+    },
+    {
+        "name": "Beta Theta Pi",
+        "link": "https://boilerlink.purdue.edu/organization/betathetapi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/0cd2c18a-5f30-4a73-8b50-1a955385b18389355c86-7fc0-4b73-aa00-d1c19e98bfb5.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Beta+Theta+Pi+Purdue"
+    },
+    {
+        "name": "Beta Upsilon Chi",
+        "link": "https://boilerlink.purdue.edu/organization/byx",
+        "image_url": "https://se-images.campuslabs.com/clink/images/fd69edc6-1e3e-47ff-8243-40c2f6f6f9d53d0f366d-4967-4a0d-9e33-30fc9e772dd1.PNG?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Beta+Upsilon+Chi+Purdue"
+    },
+    {
+        "name": "Chi Psi",
+        "link": "https://boilerlink.purdue.edu/organization/chipsi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/8d3fbeb1-6310-412d-a550-51519d029ff7a6daeb6c-4a61-4002-a3ad-ba6dac4bc16d.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Chi+Psi+Purdue"
+    },
+    {
+        "name": "Chi Sigma Tau National Fraternity Incorporated",
+        "link": "https://boilerlink.purdue.edu/organization/chisigmatau",
+        "image_url": "https://se-images.campuslabs.com/clink/images/a5aa5314-5746-4548-a387-eb23ff672c970ba36a48-c28f-4701-b38d-7f3f7e8a4d4d.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Chi+Sigma+Tau+National+Fraternity+Incorporated+Purdue"
+    },
+    {
+        "name": "Delta Chi",
+        "link": "https://boilerlink.purdue.edu/organization/deltachi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/a4d5dc34-6a94-4399-af2d-496e8f443482204edf4d-54de-4069-982b-6282d75ab2c8.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Delta+Chi+Purdue"
+    },
+    {
+        "name": "Delta Phi Mu Sorority, Inc.",
+        "link": "https://boilerlink.purdue.edu/organization/deltaphimu",
+        "image_url": "https://se-images.campuslabs.com/clink/images/b72464e6-a6e4-4309-90bb-f28267efa5850b29bc5f-4f4b-47a5-bc63-afa7417c6ead.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Delta+Phi+Mu+Sorority,+Inc.+Purdue"
+    },
+    {
+        "name": "Delta Pi Rho Fraternity Inc., Alpha Chapter",
+        "link": "https://boilerlink.purdue.edu/organization/dpr",
+        "image_url": "https://se-images.campuslabs.com/clink/images/f39829ac-f615-40d4-8d90-415489f132bfd6c5ed1d-701c-44e4-a330-c137767eef68.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Delta+Pi+Rho+Fraternity+Inc.,+Alpha+Chapter+Purdue"
+    },
+    {
+        "name": "Delta Sigma Phi",
+        "link": "https://boilerlink.purdue.edu/organization/deltasigmaphi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/90ad8257-0af4-44fc-9582-8a3d56b411aaa932214b-be86-4ce7-9eff-767ee64106e4.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Delta+Sigma+Phi+Purdue"
+    },
+    {
+        "name": "Delta Tau Delta",
+        "link": "https://boilerlink.purdue.edu/organization/deltataudelta",
+        "image_url": "https://se-images.campuslabs.com/clink/images/f16c8151-d9e3-4b53-8351-a20602301eede6293a33-b97a-491e-b96f-a6a199adca83.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Delta+Tau+Delta+Purdue"
+    },
+    {
+        "name": "Delta Upsilon",
+        "link": "https://boilerlink.purdue.edu/organization/deltaupsilon",
+        "image_url": "https://se-images.campuslabs.com/clink/images/6910f3d4-9a9d-43a0-8836-d2b8191fce62dc6d22f4-6fb4-4d59-80ba-7679e91b4a6f.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Delta+Upsilon+Purdue"
+    },
+    {
+        "name": "Evans Scholars",
+        "link": "https://boilerlink.purdue.edu/organization/evans_scholars",
+        "image_url": "https://se-images.campuslabs.com/clink/images/e7cad3c1-efb4-4a03-9643-453dd23aa01f95a08a48-5861-499f-9b4d-8af5c92b9c3b.jpeg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Evans+Scholars+Purdue"
+    },
+    {
+        "name": "FarmHouse",
+        "link": "https://boilerlink.purdue.edu/organization/farmhouse",
+        "image_url": "https://se-images.campuslabs.com/clink/images/31747db1-122f-4db3-9dbb-3c6bce0a149c7d7a08fd-c9fa-42d2-898a-e10a00a12c6e.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=FarmHouse+Purdue"
+    },
+    {
+        "name": "Gamma Class UIFI:PURDUE",
+        "link": "https://boilerlink.purdue.edu/organization/gammaclassuifipurdue",
+        "image_url": "https://se-images.campuslabs.com/clink/images/1e84ea01-7e78-4c46-96d9-0e4be2d0344a87152894-90ef-4011-9092-717b055742b6.JPG?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Gamma+Class+UIFI:PURDUE+Purdue"
+    },
+    {
+        "name": "Gemini Cooperative",
+        "link": "https://boilerlink.purdue.edu/organization/gemini",
+        "image_url": "https://se-images.campuslabs.com/clink/images/045d16be-19a5-4224-9a85-defb21494f1f8434d05a-3229-472d-8db5-0ebbab64d119.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Gemini+Cooperative+Purdue"
+    },
+    {
+        "name": "Gimlet Leadership Honorary",
+        "link": "https://boilerlink.purdue.edu/organization/gimlet",
+        "image_url": "https://se-images.campuslabs.com/clink/images/0a7d2c6d-dd70-409b-acea-f49e3fa1210e58d35baa-c664-466b-ac13-846e0f05a787.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Gimlet+Leadership+Honorary+Purdue"
+    },
+    {
+        "name": "Greek InterVarsity",
+        "link": "https://boilerlink.purdue.edu/organization/greekintervarsity",
+        "image_url": "https://se-images.campuslabs.com/clink/images/593a9973-f1a5-4e3b-9a5c-a14d7c8857cb3a6856b4-7bdc-48de-949c-0a5a3948ce5b.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Greek+InterVarsity+Purdue"
+    },
+    {
+        "name": "Interfraternity Council",
+        "link": "https://boilerlink.purdue.edu/organization/interfraternitycouncil",
+        "image_url": "https://se-images.campuslabs.com/clink/images/6c9a3f88-c06f-41c6-8e38-23a0821b77b1d1f1ae6a-7952-415a-a4db-778a84c960b4.JPG?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Interfraternity+Council+Purdue"
+    },
+    {
+        "name": "Iota Phi Theta",
+        "link": "https://boilerlink.purdue.edu/organization/iotaphithetafraternityinc",
+        "image_url": "https://se-images.campuslabs.com/clink/images/6a44b978-b5a5-4b5d-acae-ea1b06931d3b3a30453c-7cfe-4646-9e20-94072bbe25d8.JPG?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Iota+Phi+Theta+Purdue"
+    },
+    {
+        "name": "Kappa Alpha Psi Fraternity, Inc.- Nu Chapter",
+        "link": "https://boilerlink.purdue.edu/organization/kappaalphapsifraternityincnuchapter",
+        "image_url": "https://se-images.campuslabs.com/clink/images/65c13d80-1211-4b5c-806a-7e88c7b8e02fd18c9fa4-922c-46cb-abe1-c2226d91b0b2.JPG?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Kappa+Alpha+Psi+Fraternity,+Inc.-+Nu+Chapter+Purdue"
+    },
+    {
+        "name": "Kappa Delta Rho",
+        "link": "https://boilerlink.purdue.edu/organization/kappadeltarho",
+        "image_url": "https://se-images.campuslabs.com/clink/images/7f825477-6832-4947-b41c-48fd838b8b994bd01f6a-c6bc-4b2b-ae62-e447a150aef7.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Kappa+Delta+Rho+Purdue"
+    },
+    {
+        "name": "Kappa Pi Beta",
+        "link": "https://boilerlink.purdue.edu/organization/kappapibeta",
+        "image_url": "https://se-images.campuslabs.com/clink/images/a6ffae37-2170-41bd-9904-bbe19026d8874be06aeb-7d08-42b3-aaa3-df8c89175f63.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Kappa+Pi+Beta+Purdue"
+    },
+    {
+        "name": "Kappa Sigma",
+        "link": "https://boilerlink.purdue.edu/organization/kappasigma",
+        "image_url": "https://se-images.campuslabs.com/clink/images/1adebbc2-98b2-4d10-8513-b2732b8458e79ea721e1-2728-42ac-a627-4c31f82df9e3.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Kappa+Sigma+Purdue"
+    },
+    {
+        "name": "Korean Association",
+        "link": "https://boilerlink.purdue.edu/organization/koreanassociation",
+        "image_url": "https://se-images.campuslabs.com/clink/images/c45ba4d2-0e8f-4e3a-9c85-f2a077b71430f31f15ad-86c8-4fc4-ab1e-ed48918cbaa9.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Korean+Association+Purdue"
+    },
+    {
+        "name": "Lambda Chi Alpha",
+        "link": "https://boilerlink.purdue.edu/organization/lambdachialpha",
+        "image_url": "https://se-images.campuslabs.com/clink/images/8a9ab5d1-e669-47e3-93c1-43625c5fa6df872131e6-3fc6-4736-8134-6ce878dabaeb.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Lambda+Chi+Alpha+Purdue"
+    },
+    {
+        "name": "Multicultural Greek Council",
+        "link": "https://boilerlink.purdue.edu/organization/multiculturalgreekcouncil",
+        "image_url": "https://se-images.campuslabs.com/clink/images/15b44886-adfa-4b59-8936-cc6e2103ace30739f1df-9360-4e5f-a320-7d2119d8f50e.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Multicultural+Greek+Council+Purdue"
+    },
+    {
+        "name": "National Pan-Hellenic Council",
+        "link": "https://boilerlink.purdue.edu/organization/nationalpanhelleniccouncil",
+        "image_url": "https://se-images.campuslabs.com/clink/images/3bfe7849-158a-49c4-97d6-e607623ee43b3f9444cf-fedc-4ba1-a86c-5b11877819d5.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=National+Pan-Hellenic+Council+Purdue"
+    },
+    {
+        "name": "Omega Psi Phi Fraternity, Inc.",
+        "link": "https://boilerlink.purdue.edu/organization/omegapsiphifraternityinc",
+        "image_url": "https://se-images.campuslabs.com/clink/images/7372ead6-13f5-4b0b-85bc-da7e153c41a744b0271e-af48-4932-91f8-27d48413bba7.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Omega+Psi+Phi+Fraternity,+Inc.+Purdue"
+    },
+    {
+        "name": "Order of Omega",
+        "link": "https://boilerlink.purdue.edu/organization/orderofomega",
+        "image_url": "https://se-images.campuslabs.com/clink/images/cb8c41ba-e8ad-4158-80df-2a496fe9317bba8c0098-4ed2-48b2-a6ad-5b15b77a5f3a.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Order+of+Omega+Purdue"
+    },
+    {
+        "name": "Phi Beta Sigma Fraternity, Inc.",
+        "link": "https://boilerlink.purdue.edu/organization/phibetasigmafraternityinc",
+        "image_url": "https://se-images.campuslabs.com/clink/images/ab6d9c40-a648-4e07-9612-ead0b9add24f0b286287-58fb-47d7-b9b6-306b310e3d49.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Phi+Beta+Sigma+Fraternity,+Inc.+Purdue"
+    },
+    {
+        "name": "Phi Delta Theta",
+        "link": "https://boilerlink.purdue.edu/organization/phideltatheta",
+        "image_url": "https://se-images.campuslabs.com/clink/images/87f84d8a-1872-424c-a2e8-c482e9daf4258414aaca-65a4-4f4c-a559-93e8b65c8d25.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Phi+Delta+Theta+Purdue"
+    },
+    {
+        "name": "Phi Gamma Delta",
+        "link": "https://boilerlink.purdue.edu/organization/phigammadelta",
+        "image_url": "https://se-images.campuslabs.com/clink/images/7941c31f-4b86-429f-84b9-f8a450525f38a04cccbc-eb75-42ef-b2c0-5465b3eab27e.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Phi+Gamma+Delta+Purdue"
+    },
+    {
+        "name": "Phi Kappa  Tau",
+        "link": "https://boilerlink.purdue.edu/organization/phitau",
+        "image_url": "https://se-images.campuslabs.com/clink/images/67b0e8fb-8a82-4c2d-9a11-4ff23ec4676f9c9adc58-f877-4697-9f6f-34f13bff0eee.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Phi+Kappa++Tau+Purdue"
+    },
+    {
+        "name": "Phi Kappa Psi",
+        "link": "https://boilerlink.purdue.edu/organization/phikappapsi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/f822cc9b-ffd7-4a75-bf2f-cfdec30ba6792b7ba15c-b10e-4d99-afbb-40376c45d152.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Phi+Kappa+Psi+Purdue"
+    },
+    {
+        "name": "Phi Kappa Sigma",
+        "link": "https://boilerlink.purdue.edu/organization/phikappasigma",
+        "image_url": "https://se-images.campuslabs.com/clink/images/7844a262-11cc-4018-a429-43054857678fde65acb5-af65-43f7-8913-442b7c11b8b9.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Phi+Kappa+Sigma+Purdue"
+    },
+    {
+        "name": "Pi Kappa Alpha",
+        "link": "https://boilerlink.purdue.edu/organization/pikappaalpha",
+        "image_url": "https://se-images.campuslabs.com/clink/images/5030e21b-0b22-4b99-8e8e-ec974069999d12623422-06db-4973-8f54-b0349758ac2e.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Pi+Kappa+Alpha+Purdue"
+    },
+    {
+        "name": "Pi Kappa Phi",
+        "link": "https://boilerlink.purdue.edu/organization/pikappaphi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/46381954-5fc1-4270-bb05-cb58bbee0d1887ce6d9e-159f-4add-b4eb-1fb32b62697a.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Pi+Kappa+Phi+Purdue"
+    },
+    {
+        "name": "Psi Upsilon",
+        "link": "https://boilerlink.purdue.edu/organization/psiu",
+        "image_url": "https://se-images.campuslabs.com/clink/images/f829263e-4ffb-4ce4-b4c0-2377eb9d2d46f883bc51-655c-4b14-bb3b-dc55473b0b3d.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Psi+Upsilon+Purdue"
+    },
+    {
+        "name": "Purdue Cooperative Council",
+        "link": "https://boilerlink.purdue.edu/organization/purduecooperativecouncil",
+        "image_url": "https://se-images.campuslabs.com/clink/images/1edfcd36-8df8-4cbf-a40f-2924db46612f5f299dd1-5178-45b0-97c0-4525642788fa.JPG?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Purdue+Cooperative+Council+Purdue"
+    },
+    {
+        "name": "Sigma Alpha Epsilon",
+        "link": "https://boilerlink.purdue.edu/organization/sigmaalphaepsilon",
+        "image_url": "https://se-images.campuslabs.com/clink/images/bc7b24cc-0134-4068-a134-de0b353252541cd30943-1214-4d8a-ba74-999184afe422.JPG?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Sigma+Alpha+Epsilon+Purdue"
+    },
+    {
+        "name": "Sigma Chi",
+        "link": "https://boilerlink.purdue.edu/organization/sigmachi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/5f5b346a-d98a-4ed6-809a-84d3951d5e5a48933297-4e18-4577-b342-d7ed141dabf5.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Sigma+Chi+Purdue"
+    },
+    {
+        "name": "Sigma Eta Chapter of Sigma Alpha Mu",
+        "link": "https://boilerlink.purdue.edu/organization/sam",
+        "image_url": "https://se-images.campuslabs.com/clink/images/99465073-8924-4ed8-accd-13508650927b745ea3f2-a98a-4630-832c-d592a25fbfdf.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Sigma+Eta+Chapter+of+Sigma+Alpha+Mu+Purdue"
+    },
+    {
+        "name": "Sigma Lambda Beta",
+        "link": "https://boilerlink.purdue.edu/organization/slb",
+        "image_url": "https://se-images.campuslabs.com/clink/images/7d826159-032a-4759-a960-3a29bfcf1bd60672357b-a18b-457c-9c02-ed6feeeba13c.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Sigma+Lambda+Beta+Purdue"
+    },
+    {
+        "name": "Sigma Nu Fraternity",
+        "link": "https://boilerlink.purdue.edu/organization/sigmanu",
+        "image_url": "https://se-images.campuslabs.com/clink/images/b8dda381-cfa6-40db-8578-0d7d0aaf5a0c7928f911-2f9e-415b-8b3f-818a6159de0a.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Sigma+Nu+Fraternity+Purdue"
+    },
+    {
+        "name": "Sigma Phi Epsilon",
+        "link": "https://boilerlink.purdue.edu/organization/sigmaphiepsilon",
+        "image_url": "https://se-images.campuslabs.com/clink/images/76623c3d-3d15-4a6e-8e90-67fab0b1db53fe6ae082-1f8c-4207-9f9f-772b5deaa4f8.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Sigma+Phi+Epsilon+Purdue"
+    },
+    {
+        "name": "Sigma Pi",
+        "link": "https://boilerlink.purdue.edu/organization/sigmapi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/c37c77ac-0139-4352-bb14-5239c3d1eb8dac11eaa4-38b8-44ef-9c5e-d1a1545226d3.JPG?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Sigma+Pi+Purdue"
+    },
+    {
+        "name": "Tau Kappa Epsilon",
+        "link": "https://boilerlink.purdue.edu/organization/purduetke",
+        "image_url": "https://se-images.campuslabs.com/clink/images/add9d17a-f773-4d24-98e3-c50194ecb316cad7f943-d98c-4404-8ec8-f3fe6c2111e8.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Tau+Kappa+Epsilon+Purdue"
+    },
+    {
+        "name": "Theta Chi",
+        "link": "https://boilerlink.purdue.edu/organization/thetachi",
+        "image_url": "https://se-images.campuslabs.com/clink/images/308fc018-14e4-48e6-9333-a103e34d12d79937b154-aed7-45de-9844-89a0f39f1e27.png?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Theta+Chi+Purdue"
+    },
+    {
+        "name": "Zeta Beta Tau Fraternity",
+        "link": "https://boilerlink.purdue.edu/organization/zetabetataufraternity",
+        "image_url": "https://se-images.campuslabs.com/clink/images/89ac50e6-1522-4cc4-97a4-81eac2a962a137a858b1-d887-40c7-a308-87a6752c5305.jpg?preset=small-sq",
+        "google_url": "https://maps.google.com/?q=Zeta+Beta+Tau+Fraternity+Purdue"
+    }
+]
