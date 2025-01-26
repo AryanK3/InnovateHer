@@ -7,13 +7,23 @@ export async function GET(request, { params }) {
     const db = client.db("frats");
     const collection = db.collection("frats");
     try {
-      console.log('Fetching frat data for:', frat);  
       const fratData = await collection.findOne({ name: frat });
       if (!fratData) {
         return NextResponse.json({ message: "Frat doesn't exist" }, { status: 404 });
       }
-      const { name, desc, contact, reviews } = fratData;  
-      return NextResponse.json({ name, desc, contact, reviews }, { status: 200 });
+      const { name, link, image_url, google_url, reviews } = fratData; 
+      var summaryResponse;
+      if (reviews) {
+        const reviewArray = reviews.map(item => item.review);
+        summaryResponse = await fetch(`http://localhost:3000/api/summarizer`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ reviews : reviewArray })
+        });
+        const summaryData = await summaryResponse.json();        
+        return NextResponse.json({ name, link, image_url, google_url, reviews, summary: summaryData.summary }, { status: 200 });
+      }
+      return NextResponse.json({ name, link, image_url, google_url, reviews, summary: 'No reviews yet!' }, { status: 200 });
     } catch (error) {
       console.error(error);
       return NextResponse.json({ message: "Server error" }, { status: 500 });
