@@ -1,80 +1,38 @@
 "use client"; // Mark this file as a client component
 
-import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
-import { useSession } from "next-auth/react";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link"; // Import Link from next/link
+import Link from "next/link";
 
-export default function Frat() {
-  const { data: session } = useSession({ required: false });
-  const { frat } = useParams();
-  const [name, setName] = useState("");
-  const [desc, setDesc] = useState("");
-  const [contact, setContact] = useState("");
+export default function Signup() {
+  const router = useRouter();
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
-  const [message, setMessage] = useState("");
-  const [reviews, setReviews] = useState([]);
-  const [newReview, setNewReview] = useState("");
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        console.log(frat);
-        const response = await fetch(`/api/frat/${frat}`);
-        if (!response.ok) {
-          throw new Error("Failed to fetch frat");
-        }
-        const data = await response.json();
-        setName(data.name);
-        setDesc(data.desc);
-        setContact(data.contact);
-        setReviews(data.reviews || []);
-      } catch (error) {
-        setError(error.message);
-      }
-    };
-
-    if (frat) {
-      fetchData();
-    } else {
-      setError("Frat not found");
-    }
-  }, [frat]);
-
-  if (error) {
-    return <div>{error}</div>;
-  }
-
-  const handleReviewSubmit = async (e) => {
+  // Handle form submission
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!newReview) {
-      setError("Please write a review");
-      return;
-    }
+
+    // Add your signup logic here (e.g., API call)
     try {
-      const response = await fetch(`/api/frat/${frat}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ review: newReview, username: session?.user?.name || "Anonymous" }),
-      });
-      if (!response.ok) {
-        throw new Error("Failed to submit review");
+      if (!fullName || !email || !password) {
+        setError("All fields are required");
+        return;
       }
-      const data = await response.json();
-      setReviews((prevReviews) => [
-        ...prevReviews,
-        { review: newReview, username: session?.user?.name || "Anonymous", date: new Date() },
-      ]);
-      setNewReview("");
-    } catch (error) {
-      setError(error.message);
+
+      // Simulate successful signup and redirect to main page
+      router.push("/main");
+    } catch (err) {
+      setError("Failed to create account");
     }
   };
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 p-4">
-      <div className="w-full max-w-md p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg">
+      <div className="w-full max-w-sm p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg">
         <div className="flex flex-col items-center gap-4">
           <Image
             className="dark:invert"
@@ -84,40 +42,72 @@ export default function Frat() {
             height={30}
             priority
           />
-          <h1 className="text-2xl font-semibold">Fraternity Details</h1>
+          <h1 className="text-2xl font-semibold">Sign Up</h1>
         </div>
-        <div className="mt-6">
-          <h3 className="text-2xl font-bold mb-2 text-black text-center">{name}</h3>
-          <h5 className="text-xl mb-4 text-black text-center">{desc}</h5>
-          <h6 className="text-lg mb-4 text-black text-center">{contact}</h6>
-        </div>
-        <div className="mt-8">
-          <h4 className="text-xl font-semibold mb-4 text-black">Reviews</h4>
-          <div className="space-y-4">
-            {reviews.length > 0 ? (
-              reviews.map((review, index) => (
-                <div key={index} className="bg-gray-100 p-4 rounded-md text-black">
-                  <p className="font-bold text-black">{review.username}</p>
-                  <p>{review.review}</p>
-                </div>
-              ))
-            ) : (
-              <p>No reviews yet. Be the first to review!</p>
-            )}
+        <form className="flex flex-col gap-4 mt-4" onSubmit={handleSubmit}>
+          {/* Full Name Input */}
+          <div className="flex flex-col gap-2">
+            <label htmlFor="fullName" className="text-sm font-medium">
+              Full Name
+            </label>
+            <input
+              type="text"
+              id="fullName"
+              className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Enter your full name"
+              value={fullName}
+              onChange={(e) => setFullName(e.target.value)}
+              required
+            />
           </div>
-        </div>
-        <form className="mt-8 text-black" onSubmit={handleReviewSubmit}>
-          <textarea
-            value={newReview}
-            onChange={(e) => setNewReview(e.target.value)}
-            rows="4"
-            placeholder="Write your review here"
-            className="w-full p-3 mb-4 border rounded-md"
-          />
-          <button type="submit" className="bg-blue-500 text-white p-2 rounded-md">
-            Submit Review
+          {/* Email Input */}
+          <div className="flex flex-col gap-2">
+            <label htmlFor="email" className="text-sm font-medium">
+              Email Address
+            </label>
+            <input
+              type="email"
+              id="email"
+              className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          {/* Password Input */}
+          <div className="flex flex-col gap-2">
+            <label htmlFor="password" className="text-sm font-medium">
+              Password
+            </label>
+            <input
+              type="password"
+              id="password"
+              className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Enter your password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          {/* Error Message */}
+          {error && (
+            <p className="text-red-500 text-sm">{error}</p>
+          )}
+          {/* Submit Button */}
+          <button
+            type="submit"
+            className="w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+          >
+            Sign Up
           </button>
         </form>
+        <p className="text-sm mt-4 text-center">
+          Already have an account?{" "}
+          <Link href="/signin" className="text-blue-600 hover:underline hover:text-blue-800">
+            Sign in
+          </Link>
+        </p>
       </div>
     </div>
   );
