@@ -146,7 +146,7 @@ export default function Frat() {
             />
             <button
               type="submit"
-              className="bg-[#6A4A3C] text-white py-2 px-6 rounded-md hover:bg-[#543A2F]"
+              className="bg-[#5A2A51] text-white py-2 px-6 rounded-md hover:bg-[#B45FA4]"
             >
               Submit Review
             </button>

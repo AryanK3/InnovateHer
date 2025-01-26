@@ -51,7 +51,7 @@ export default function FratList() {
             </Link>
           ))
         ) : (
-          <p className="text-[#5A2A51] text-center">No fraternities available.</p>
+          <p className="text-[#5A2A51] text-center">Loading fraternities ...</p>
         )}
       </div>
     </div>
