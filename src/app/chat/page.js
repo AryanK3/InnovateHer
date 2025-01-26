@@ -46,9 +46,9 @@ export default function Chat() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-900">
-      <div className="p-8 rounded-lg shadow-lg w-full max-w-xl bg-transparent">
-        <h1 className="text-3xl font-bold text-white text-center mb-6">Ask a Question about Fraternities</h1>
+    <div className="flex items-center justify-center min-h-screen bg-[#E6CFDC]">
+      <div className="p-8 rounded-lg shadow-lg w-full max-w-xl bg-white">
+        <h1 className="text-3xl font-playfair-display font-semibold text-gray-800 text-center mb-6">Ask a Question about Fraternities</h1>
         
         <form className="space-y-4" onSubmit={handleSubmit}>
           <input
@@ -56,12 +56,12 @@ export default function Chat() {
             value={question}
             onChange={handleQuestionChange}
             placeholder="Type your question here"
-            className="w-full p-3 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent text-white"
+            className="w-full p-3 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-[#E6CFDC] text-gray-800"
             required
           />
           <button
             type="submit"
-            className="w-full py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-200"
+            className="w-full py-3 bg-[#8C5B6B] text-white font-semibold rounded-md hover:bg-[#7A4A55] transition duration-200"
           >
             Submit
           </button>
