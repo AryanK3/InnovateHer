@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-[#E6CFDC] min-h-screen flex flex-col justify-center items-center py-12 px-6 font-['Playfair_Display']">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <h1 className="text-5xl font-bold text-[#6A4A3C] mb-6">Welcome to FratList</h1>
+        <h1 className="text-5xl font-bold text-[#6A4A3C] mb-6">Welcome to Purdue FratCheck</h1>
         <p className="text-xl text-[#6A4A3C] max-w-3xl mx-auto">
           FratList is a platform designed for women, empowering you to explore and connect with various fraternities, 
           learn about their cultures, and find the perfect fit for you.
